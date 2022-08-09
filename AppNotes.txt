@@ -1,0 +1,17 @@
+Controllers - app/Http/Controllers-
+PagesController.php to router pages to index,about & services pages
+PostsController.php resource controller with create,show,update,edit and destroy methods for Posts table
+
+Model- app/Models-
+database\migrations\2022_06_20_123231_create_posts_table.php - to create a simple table for demonstrating crud action in MySql database
+database\migrations\2014_10_12_000000_create_users_table.php - is used to create the users table 
+database\migrations\2022_08_06_235549_add_user_id_to_posts.php -user id added to posts table for Access Control and link to users postings
+
+Routes are in the standard web.php folder in the routes folder
+Views are in resources/views
+/inc this folder has blade files messages for confirmation of CRUD actions and the navigation bar
+/layout the general page layout for stylesheet link and script tags
+/pages the pages controller blades are here for the index,about and services pages
+/posts blades for the CRUD actions on the posts table are here
+
+This app does  have user registration/authentication enabled. 
